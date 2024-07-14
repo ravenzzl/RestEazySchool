@@ -18,7 +18,7 @@ public class Person {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO,generator = "native")
 	@GenericGenerator(strategy = "native",name = "native")
-	private Long personId;
+	private int personId;
 	private String Name;
 	@Column(name = "mobile_number")
 	private String MobileNumber;
